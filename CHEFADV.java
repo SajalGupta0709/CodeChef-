@@ -23,7 +23,6 @@ class Codechef
 		    n--;m--;
 		    if(m%y==0&&n%x==0){System.out.println("Chefirnemo");continue;}
 		    else System.out.println("Pofik");
-		}
-		
+		}	
 	}
 }
