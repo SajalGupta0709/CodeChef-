@@ -7,7 +7,6 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		int[] arr = new int[60];
 		arr[0]=0;
