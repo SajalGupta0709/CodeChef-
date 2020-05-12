@@ -24,7 +24,7 @@ int main() {
 	            if(i%j==0){
 	                if(p.count(j))c++;
 	                if(i/j!=j && p.count(i/j)) c++;
-	            }
+	           }
 	        }
 	        f[i]=c;
 	    }
