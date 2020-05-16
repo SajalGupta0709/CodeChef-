@@ -23,7 +23,7 @@ int main() {
 	                s[i]=(s[i+1]+s[i])%md;
 	       }
 	       for(int i=1;i<=n;i++)
-	            cout<<p[i-1]+s[i+1]<<" ";
+	            cout<<(p[i-1]+s[i+1])%md<<" ";
 	       cout<<"\n";         
 	}
 	return 0;
